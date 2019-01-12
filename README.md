@@ -25,8 +25,13 @@ functional requirements
 ● Execute the following command in terminal
   ./gradlew build
   
-# Test Reports
+# Test Reports:
 ● For results, navigate to the following path from terminal
   /build/reports/tests/test
 ● Enter the follwing command in terminal
   open index.html
+
+# To execute the code with a certain input:
+● Enter the following command
+  gradlew -Pargs="10,20,45,78" run
+  The inputs can be passed as a comma separated string without any blankspaces.
