@@ -1,5 +1,4 @@
 # last-man-standing
-Trusting Social hands-on assignment.
 
 # Simulation problem statement
 There are N people standing in a circle. Lets assign them numbers 0 ... N-1. To begin with,
