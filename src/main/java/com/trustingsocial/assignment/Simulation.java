@@ -1,11 +1,11 @@
 package com.trustingsocial.assignment;
 
-import java.util.LinkedList;
+import java.util.ArrayDeque;
 
 public class Simulation {
 
    public int getLastManStanding(int n) throws InvalidPeopleCountException {
-        LinkedList<Integer> personIndex = new LinkedList<Integer>();
+        ArrayDeque<Integer> personIndex = new ArrayDeque<>();
         if (n >= 1) {
             for (int i = 0; i < n; i++) {
                 personIndex.add(i);
@@ -16,7 +16,7 @@ public class Simulation {
         }
     }
 
-    private int solve(LinkedList<Integer> personIndex) {
+    private int solve(ArrayDeque<Integer> personIndex) {
         int size = personIndex.size();
 
         if(size == 1) {
